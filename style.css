@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+
+nav {
+  overflow: hidden;
+  background-color: #3d2b1f;
+  position: fixed;
+  width: 100%;
+  opacity: 0.98;
+  top: 0;
+  margin: 0px;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  list-style-type: none;
+  float: right;
+  font-size: 1.2em;
+  font-family: "Courier Prime", monospace;
+}
+header li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 18px 16px;
+  color: #c8ad7f;
+}
+#ac {
+  font-family: "Courier Prime", monospace;
+  float: left;
+}
+h1 {
+  margin-top: 70px;
+  text-align: center;
+  font-family: "Courier Prime", monospace;
+  color: #303030;
+}
+h2 {
+  font-family: "Courier Prime", monospace;
+  color: blanchedalmond;
+  background-color: #606060;
+  border-radius: 20px;
+  size: unset;
+  padding: 10px;
+  text-align: center;
+}
+body {
+  margin: 0px;
+  padding: 10px;
+  background-color: #f5f5dc;
+}
+
+.tftable {
+  font-size: 12px;
+  color: #333333;
+  width: 100%;
+  border-width: 1px;
+  border-color: #729ea5;
+  border-collapse: collapse;
+}
+.tftable th {
+  font-size: 12px;
+  background-color: rgb(185, 139, 70);
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #0e0d0d;
+  text-align: left;
+}
+.tftable tr {
+  background-color: #bba459;
+}
+.tftable td {
+  font-size: 12px;
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #302b1d;
+}
+
+.galerie {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  margin: 10px;
+}
+.p1 {
+  width: 40%;
+  margin: 10px;
+}
+p {
+  text-align: center;
+}
+#map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
