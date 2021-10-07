@@ -103,6 +103,6 @@ p {
   margin-right: auto;
 }
 @media only screen and (max-width: 450px) {
-  h1 {margin-top: 120px }
+  h1 {margin-top: 70px }
   header li{font-size:16px}
 }
